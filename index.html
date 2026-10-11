@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EnglishForest</title>
+  <meta name="description" content="短い英語の物語と日本語要約を、音声とテキストの両方で。">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌲</text></svg>">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-header__brand" href="#/">
+      <span class="site-header__mark" aria-hidden="true">🌲</span>
+      <span class="site-header__name">EnglishForest</span>
+    </a>
+    <p class="site-header__tagline">聴いて、読んで、英語の森へ。</p>
+  </header>
+
+  <main class="site-main">
+    <div id="view-list"></div>
+    <div id="view-story" hidden></div>
+  </main>
+
+  <footer class="site-footer">
+    <p>音声はお使いのブラウザの読み上げ機能（Web Speech API）を使用しています。</p>
+  </footer>
+
+  <script src="data/stories.js"></script>
+  <script src="assets/js/speech.js"></script>
+  <script src="assets/js/player.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
